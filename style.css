@@ -233,8 +233,34 @@
     padding-top: 20px;
 }
 
-@media screen and (max-width: 500px) {
-    .parent {
+@media screen and (max-width: 320px) {
+    .hero {
+        display: grid;
+        margin-left: 0;
+    }
+    .texts-beside-the-image {
+        font-size: 48px;
+        position: relative;
+        text-align: center;
+        margin-top: 100px;    
+    }
+    .heading-3{
+        margin-left: 0;
+        padding: 10px 70px 10px;
+        margin-bottom: 0;
+        color: #1C4B43;
+        font-size: 27px;
+        font-family: SourceCodePro-Regular;
         
+    }
+    .hi-and-lens {
+        padding-left: 2px;
+        margin-top: 0;
+    }
+    .hero-image {
+        margin-left: 0;
+        margin-top: 0;
+        flex: 1;
+        order: 1;
     }
 }
