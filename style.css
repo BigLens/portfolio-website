@@ -21,6 +21,16 @@
     padding: 0 40px;
 }
 .bl{
+    font-family: Roboto;
+}
+.bl::before{
+    color: #303030;
+    font-family: Roboto;
+    margin-top: 0;
+    content: '<';
+}
+.bl::after{
+    content: '>';
     color: #303030;
     font-family: Roboto;
     margin-top: 0;
@@ -232,8 +242,9 @@
     justify-content: space-around;
     padding-top: 20px;
 }
+   
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 414px) {
     .hero {
         display: grid;
         margin-left: 0;
@@ -251,6 +262,7 @@
         color: #1C4B43;
         font-size: 27px;
         font-family: SourceCodePro-Regular;
+        width: 70%;
         
     }
     .hi-and-lens {
@@ -263,4 +275,54 @@
         flex: 1;
         order: 1;
     }
+    .Design-development{
+        display: block;
+    }
+    .who-i-am{
+        text-align: center;
+    }
+    .designer-developer{
+        width: 75%;
+        text-align: center;
+        margin-left: 10px;
+        position: relative;
+        font-size: 25px;
+        padding: 20px 20px 60px;
+        margin-left: 40px;
+        font-weight: bolder;
+    }
+    .Nico{
+        margin-left: 30px;
+        margin-top: 200px;
+        width: 400px;
+        height: 400px;
+    }
+    /* .dolor{
+        font-size: 30px;
+        width: 90%;
+        text-align: center;
+        padding-left: 20px;
+        padding-top: 380px;
+    }
+    .dolor2{
+        margin-bottom: 1px;
+    } */
+    .dolor2{
+        width: 90%;
+        font-size: 30px;
+        padding-left: 20px;
+        text-align: center;
+        padding-top: 400px;
+    }
+    .dolor22{
+        width: 90%;
+        font-size: 30px;
+        padding-left: 20px;
+        text-align: center;
+    }
+     .section-3{
+        margin-top: 480px;
+        height: 300%;
+    }
+     
 }
